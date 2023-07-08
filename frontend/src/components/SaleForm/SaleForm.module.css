@@ -1,0 +1,23 @@
+/* Estilos para o formulário de vendas */
+.SaleForm {
+  margin-bottom: 20px;
+}
+
+.h2 {
+  margin-top: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 5px;
+}
+
+.input {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}

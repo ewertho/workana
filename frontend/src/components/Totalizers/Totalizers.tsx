@@ -1,5 +1,4 @@
 import React from "react";
-import "./Totalizers.css";
 
 interface TotalizersProps {
   totalValue: number;
@@ -8,10 +7,10 @@ interface TotalizersProps {
 
 const Totalizers: React.FC<TotalizersProps> = ({ totalValue, totalTaxes }) => {
   return (
-    <div className="Totalizers">
-      <h2>Totalizers</h2>
-      <p>Total Value: {totalValue}</p>
-      <p>Total Taxes: {totalTaxes}</p>
+    <div className="bg-gray-100 p-4 rounded-lg">
+      <h2 className="text-xl font-bold mb-4">Totalizers</h2>
+      <p className="mb-2">Total Value: {totalValue}</p>
+      <p className="mb-2">Total Taxes: {totalTaxes}</p>
     </div>
   );
 };

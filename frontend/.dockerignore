@@ -1,0 +1,3 @@
+# Arquivos e pastas a serem ignorados pelo Docker
+
+node_modules/

@@ -14,6 +14,11 @@ export default defineConfig((configEnv) => {
         hooks: resolve(__dirname, "src", "hooks"),
       },
     },
+    server: {
+      host: true,
+      strictPort: true,
+      port: 3000,
+    },
     css: {
       modules: {
         generateScopedName: isDevelopment

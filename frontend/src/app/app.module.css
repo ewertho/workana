@@ -10,17 +10,4 @@
   font-family: Arial, sans-serif;
 }
 
-/* Estilos para os totalizadores */
-.Totalizers {
-  text-align: center;
-}
-
-.Totalizers h2 {
-  margin-top: 0;
-}
-
-.Totalizers p {
-  margin: 5px 0;
-}
-
 /* Outros estilos específicos para o seu aplicativo */
